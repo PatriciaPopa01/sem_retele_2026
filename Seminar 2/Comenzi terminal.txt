@@ -1,0 +1,27 @@
+ipconfig
+Afișează informații despre configurația IP a computerului
+
+ping www.google.com
+Verifică conectivitatea către o altă adresă IP sau nume de gazdă
+
+tracert www.google.com
+Afișează ruta pe care o ia un pachet către o destinație specificată, arătând toate nodurile intermediare
+ 
+nslookup www.google.com
+Furnizează informații despre o adresă IP sau despre o resursă de rețea, inclusiv rezolvarea numelor de gazdă în adrese IP și invers
+
+netstat, netstat -an
+Afișează informații despre conexiunile de rețea active, porturile deschise și statistici
+
+arp -a
+Afișează și modifică tabelul de rezoluție a adresei de protocol al sistemului.
+
+route print
+Afișează sau modifică tabela de rutare a computerului
+
+ipconfig /flushdns
+Golește cache-ul DNS.
+
+Testeaza viteza conexiunii tale la internet
+pip install speedtest-cli
+speedtest-cli
